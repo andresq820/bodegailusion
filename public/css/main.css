@@ -1,0 +1,100 @@
+.info-box {
+    text-align: left;
+    width: auto;
+    max-width: 400px;
+    margin: auto;
+    padding: 16px;
+    border-radius: 3px;
+}
+
+.info-box.fail {
+    border: 1px solid #e5003c;
+    background-color: #ffc4be;
+    color: #e5003c;
+}
+
+.info-box.success {
+    border: 1px solid green;
+    background-color: #e2ffd9;
+    color: green;
+}
+
+#myEditForm {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%
+}
+
+#edit {
+    margin-bottom: 20px;
+}
+
+#edit label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#edit input,
+#edit textarea,
+#edit select {
+    width: 50%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    padding: 4px 8px;
+    vertical-align: top;
+}
+
+#edit input:focus,
+#edit textarea:focus {
+    border: 1px solid #0863d3;
+}
+
+
+
+#myEditFrom button {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#edit input.has-error,
+#edit textarea.has-error {
+    border: 1px solid red;
+}
+
+#dataTables a {
+    color: black;
+}
+
+.navbar-image {
+    height: 51px;
+    width: 255px;
+    position: relative; 
+    top: -15px; 
+    left: -20px;
+}
+
+.list_image {
+    height: 50px;
+    width: 50px;
+    position: relative;    
+}
+
+.list_image:hover {
+    height: 120px;
+    width: 160px;
+    position: relative;  
+}
+
+.table_image {
+    height: 30px;
+    width: 30px;
+    position: relative;    
+}
+
+.table_image:hover {
+    height: 120px;
+    width: 160px;
+    position: relative;  
+}
